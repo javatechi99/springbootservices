@@ -17,6 +17,7 @@ public class StorageServiceImpl implements StorageService{
 	
 	   @Autowired
 	    private StorageRepository repository;
+	   
 
 	    public String uploadImage(MultipartFile file) throws IOException {
 
