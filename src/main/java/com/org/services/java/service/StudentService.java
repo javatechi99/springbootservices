@@ -16,6 +16,8 @@ public interface StudentService {
 	 Page<Student> findStudentsWithPagination(int offset,int pageSize);
 	 
 	 Page<Student> findStudentsWithPaginationAndSorting(int offset,int pageSize,String field);
+
+	List<Student> findAllStudentDetails();
 	
 	
 	

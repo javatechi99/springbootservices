@@ -48,4 +48,10 @@ public class StudentServiceImpl implements StudentService {
 		return products;
 	}
 
+	@Override
+	public List<Student> findAllStudentDetails() {
+	List<Student> list=repository.findAll();
+		return list;
+	}
+
 }
